@@ -49,7 +49,7 @@
         const script = "https://script.google.com/macros/s/AKfycbzS_mfH3HsUtLEqwZdAhP8FQxduR88zrO4wvr3gdqFUrnjS0B8VleNpLZRt5MFegEf3/exec"
         const scanner = new Html5Qrcode('reader')
         const ld = document.querySelector('.loading')
-        const config = {fps:10,qrbox:{width:100, height:100}} 
+        const config = {fps:10,qrbox:{width:200, height:200}} 
             const qrCodeSuccessCallback = function (decodedText, decodedResult){
             if(decodedText){
             document.getElementById('nama').textContent = decodedText;
@@ -72,7 +72,7 @@
   icon: "success",
   title: "Santri Telah Tercatat",
   confirmButtonText: "Tambah Santri",
-  footer: '<a class="text-blue-900 hover:text-blue-300" href="#">Lihat Catatan</a>'
+  footer: '<a class="text-blue-900 hover:text-blue-300" href="https://docs.google.com/spreadsheets/d/1yEjVYmMWkOzQUPK2l_7jqskK0xoru18x1Gy9l3mjZ_U/edit?usp=sharing">Lihat Catatan</a>'
 });
             console.log("Success!");
             document.getElementById('nama').textContent = ''
