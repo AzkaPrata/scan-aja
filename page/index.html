@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Scan Aja | AzkaPrata</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        
+    </head>
+    <body>
+        <script src="./function/function.js"></script>
+        <div class="lg:m-5 lg:mx-auto w-full ml-1 lg:w-1/2 mx-auto">
+            <button class="settingcode m-5 p-4 border mx-auto border-slate-200 hover:bg-blue-500 hover:text-white transition duration-1000 rounded-md shadow-md">
+                Pengaturan Kode
+            </button>
+            <button class="settingsheet m-5 lg:ml-0 ml-8 p-4 border mx-auto border-slate-200 hover:bg-blue-500 hover:text-white transition duration-1000 rounded-md shadow-md">
+                <a href="" class="">Pengaturan Link</a>
+            </button>
+        </div>
+    <form id="izin" method="post">
+        <div class="form w-full lg:w-1/2 mx-auto border border-slate-100 mt-5 grid content-center rounded-md shadow-md pb-32">
+            <h1 class="text-3xl border-b-2 shadow-b-md pb-2 w-11/12 border-slate-200 mx-auto text-center mt-5 mb-2 font-bold">SCAN AJA</h1>
+            <div class="text-center mt-2 mt-2">
+                <div id="reader" class="w-10/12 mx-auto rounded-md shadow-inner"></div>
+                <div class=" ml-14 text-left cursor-default flex mb-1  mt-5"><p class="categorytext1">Kategori 1</p>  <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer edit1 mt-1 ml-2 w-[16px] hover:w-[20px] transition-all duration-500" viewBox="0 0 512 512"><title>ionicons-v5-k</title><polygon points="364.13 125.25 87 403 64 448 108.99 425 386.75 147.87 364.13 125.25" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M420.69,68.69,398.07,91.31l22.62,22.63,22.62-22.63a16,16,0,0,0,0-22.62h0A16,16,0,0,0,420.69,68.69Z" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/></svg></div>
+                <textarea class="border w-10/12 border-slate-300 text-center p-2 rounded-md input1" id="nama" cols="30" rows="1"></textarea>
+            </div>
+            <div class="text-center mt-2 ">
+                <div class=" ml-14 text-left cursor-default select-none flex mb-1"><p class="categorytext2">Kategori 2</p>  <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer edit2 mt-1 ml-2 w-[16px] hover:w-[20px] transition-all duration-500" viewBox="0 0 512 512"><title>ionicons-v5-k</title><polygon points="364.13 125.25 87 403 64 448 108.99 425 386.75 147.87 364.13 125.25" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M420.69,68.69,398.07,91.31l22.62,22.63,22.62-22.63a16,16,0,0,0,0-22.62h0A16,16,0,0,0,420.69,68.69Z" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/></svg></div>
+                <input class="border w-10/12 border-slate-300 text-center p-2 rounded-md input2" type="text" name="kelas" id="">
+    
+            </div>
+            <div class="text-center mt-2 ">
+                <div class=" ml-14 text-left cursor-default select-none flex mb-1"><p class="categorytext3">Kategori 3</p>  <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer edit3 mt-1 ml-2 w-[16px] hover:w-[20px] transition-all duration-500" viewBox="0 0 512 512"><title>ionicons-v5-k</title><polygon points="364.13 125.25 87 403 64 448 108.99 425 386.75 147.87 364.13 125.25" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M420.69,68.69,398.07,91.31l22.62,22.63,22.62-22.63a16,16,0,0,0,0-22.62h0A16,16,0,0,0,420.69,68.69Z" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/></svg></div>
+                <input class="border w-10/12 border-slate-300 text-center p-2 rounded-md input3" type="text" name="keperluan" id="">
+    
+            </div>`
+            <div class="text-center mt-2 ">
+                <div class=" ml-14 text-left cursor-default select-none flex text- mb-1"><p class="categorytext4">Kategori 4</p>  <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer edit4 mt-1 ml-2 w-[16px] hover:w-[20px] transition-all duration-500" viewBox="0 0 512 512"><title>ionicons-v5-k</title><polygon points="364.13 125.25 87 403 64 448 108.99 425 386.75 147.87 364.13 125.25" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M420.69,68.69,398.07,91.31l22.62,22.63,22.62-22.63a16,16,0,0,0,0-22.62h0A16,16,0,0,0,420.69,68.69Z" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/></svg></div>
+                <input class="border w-10/12 border-slate-300 text-center p-2 rounded-md input4" type="text" name="izin" id="">
+
+            </div>
+            <div class="text-center mt-2 ">
+                <div class=" ml-14 text-left cursor-default select-none flex text- mb-1"><p class="categorytext5">Kategori 5</p>  <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer edit5 mt-1 ml-2 w-[16px] hover:w-[20px] transition-all duration-500" viewBox="0 0 512 512"><title>ionicons-v5-k</title><polygon points="364.13 125.25 87 403 64 448 108.99 425 386.75 147.87 364.13 125.25" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M420.69,68.69,398.07,91.31l22.62,22.63,22.62-22.63a16,16,0,0,0,0-22.62h0A16,16,0,0,0,420.69,68.69Z" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/></svg></div>
+                <input class="border w-10/12 border-slate-300 text-center p-2 rounded-md input5" type="text" name="pulang" id="">
+    
+            </div>
+            <div class="  mt-8 w-full flex align-center">
+            <button type="submit" class="button w-1/4 p-4 border mx-auto border-slate-200 hover:bg-blue-500 hover:text-white transition duration-1000 rounded-md shadow-md">Kirim</button>
+                <div class="indicator w-14 h-14 p-4 border mx-auto border-slate-200 hover:text-white transition duration-1000 rounded-md shadow-md"></div>
+            </div>
+        </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        const edt1 = document.querySelector('.edit1')
+        const edt2 = document.querySelector('.edit2')
+        const edt3 = document.querySelector('.edit3')
+        const edt4 = document.querySelector('.edit4')
+        const edt5 = document.querySelector('.edit5')
+        const ind = document.querySelector(".indicator")
+        const submit = document.querySelector('.button')
+        const script = "https://script.google.com/macros/s/AKfycbzS_mfH3HsUtLEqwZdAhP8FQxduR88zrO4wvr3gdqFUrnjS0B8VleNpLZRt5MFegEf3/exec"
+        const scanner = new Html5Qrcode('reader')
+        const ld = document.querySelector('.loading')
+        const config = {fps:10,qrbox:{width:200, height:200}} 
+        const form = document.getElementById('izin');
+        const btncode = document.querySelector('.settingcode')
+        const btnlink = document.querySelector('.settingsheet')
+        const code = localStorage.getItem('code')
+        const sheet = localStorage.getItem('sheet')
+        const textc1 = document.querySelector(".categorytext1")
+        const textc2 = document.querySelector(".categorytext2")
+        const textc3 = document.querySelector(".categorytext3")
+        const textc4 = document.querySelector(".categorytext4")
+        const textc5 = document.querySelector(".categorytext5")
+        let namec1 = localStorage.getItem('name1')
+        let namec2 = localStorage.getItem('name2')
+        let namec3 = localStorage.getItem('name3')
+        let namec4 = localStorage.getItem('name4')
+        let namec5 = localStorage.getItem('name5')
+        let inp1 = document.querySelector(".input1")
+        let inp2 = document.querySelector(".input2")
+        let inp3 = document.querySelector(".input3")
+        let inp4 = document.querySelector(".input4")
+        let inp5 = document.querySelector(".input5")
+        edt1.addEventListener('click', async (e)=>{
+            e.preventDefault()
+            console.log("Setting Category")
+            const {value:category1} = await Swal.fire({
+                icon:"info",
+                title:"Category 1",
+                showCancelButton:true,
+                cancelButtonText:"Batal",
+                confirmButtonText:"OKE",
+                input:"text",
+                inputLabel:"Masukan Nama Untuk Category 1 (Nama Harus 1 Kata)",
+                inputPlaceholder: "Nama",
+                inputValidator: (value)=>{
+                    if(!value){
+                        return "Masukan Nama Category"
+                    }
+                }
+            })
+            if(category1){
+                Swal.fire({
+                    icon:"warning",
+                        title:"Peringatan!",
+                        html:"<p><b>Nama Kategori</b> harus sama dengan Nama Kolom SpreedSheet</p>"
+                }).then((result)=>{
+                    if(result.isConfirmed){
+                        Swal.fire({
+                            icon:"success",
+                            title:"Pengaturan Berhasil Disimpan",
+                            text:"Nama Kategori : "+ category1
+                        }).then((result)=>{
+                            if(result.isConfirmed){
+                                location.reload()
+                            }
+                        })
+                    }
+                })
+                localStorage.setItem("name1", category1)
+            }
+        })
+        edt2.addEventListener('click', async (e)=>{
+            e.preventDefault()
+            console.log("Setting Category")
+            const {value:category2} = await Swal.fire({
+                icon:"info",
+                title:"Category 2",
+                showCancelButton:true,
+                cancelButtonText:"Batal",
+                confirmButtonText:"OKE",
+                input:"text",
+                inputLabel:"Masukan Nama Untuk Category 2 (Nama Harus 1 Kata)",
+                inputPlaceholder: "Nama",
+                inputValidator: (value)=>{
+                    if(!value){
+                        return "Masukan Nama Category"
+                    }
+                }
+            })
+            if(category2){
+                Swal.fire({
+                    icon:"warning",
+                        title:"Peringatan!",
+                        html:"<p><b>Nama Kategori</b> harus sama dengan Nama Kolom SpreedSheet</p>"
+                }).then((result)=>{
+                    if(result.isConfirmed){
+                        Swal.fire({
+                            icon:"success",
+                            title:"Pengaturan Berhasil Disimpan",
+                            text:"Nama Kategori : "+ category2
+                        }).then((result)=>{
+                            if(result.isConfirmed){
+                                location.reload()
+                            }
+                        })
+                    }
+                })
+                localStorage.setItem("name2", category2)
+            }
+        })
+        edt3.addEventListener('click', async (e)=>{
+            e.preventDefault()
+            console.log("Setting Category")
+            const {value:category3} = await Swal.fire({
+                icon:"info",
+                title:"Category 3",
+                showCancelButton:true,
+                cancelButtonText:"Batal",
+                confirmButtonText:"OKE",
+                input:"text",
+                inputLabel:"Masukan Nama Untuk Category 3 (Nama Harus 1 Kata)",
+                inputPlaceholder: "Nama",
+                inputValidator: (value)=>{
+                    if(!value){
+                        return "Masukan Nama Category"
+                    }
+                }
+            })
+            if(category3){
+                Swal.fire({
+                    icon:"warning",
+                        title:"Peringatan!",
+                        html:"<p><b>Nama Kategori</b> harus sama dengan Nama Kolom SpreedSheet</p>"
+                }).then((result)=>{
+                    if(result.isConfirmed){
+                        Swal.fire({
+                            icon:"success",
+                            title:"Pengaturan Berhasil Disimpan",
+                            text:"Nama Kategori : "+ category3
+                        }).then((result)=>{
+                            if(result.isConfirmed){
+                                location.reload()
+                            }
+                        })
+                    }
+                })
+                localStorage.setItem("name3", category3)
+            }
+        })
+        edt4.addEventListener('click', async (e)=>{
+            e.preventDefault()
+            console.log("Setting Category")
+            const {value:category4} = await Swal.fire({
+                icon:"info",
+                title:"Category 4",
+                showCancelButton:true,
+                cancelButtonText:"Batal",
+                confirmButtonText:"OKE",
+                input:"text",
+                inputLabel:"Masukan Nama Untuk Category 4 (Nama Harus 1 Kata)",
+                inputPlaceholder: "Nama",
+                inputValidator: (value)=>{
+                    if(!value){
+                        return "Masukan Nama Category"
+                    }
+                }
+            })
+            if(category4){
+                Swal.fire({
+                    icon:"warning",
+                        title:"Peringatan!",
+                        html:"<p><b>Nama Kategori</b> harus sama dengan Nama Kolom SpreedSheet</p>"
+                }).then((result)=>{
+                    if(result.isConfirmed){
+                        Swal.fire({
+                            icon:"success",
+                            title:"Pengaturan Berhasil Disimpan",
+                            text:"Nama Kategori : "+ category4
+                        }).then((result)=>{
+                            if(result.isConfirmed){
+                                location.reload()
+                            }
+                        })
+                    }
+                })
+                localStorage.setItem("name4", category4)
+            }
+        })
+        edt5.addEventListener('click', async (e)=>{
+            e.preventDefault()
+            console.log("Setting Category")
+            const {value:category5} = await Swal.fire({
+                icon:"info",
+                title:"Category 5",
+                showCancelButton:true,
+                cancelButtonText:"Batal",
+                confirmButtonText:"OKE",
+                input:"text",
+                inputLabel:"Masukan Nama Untuk Category 5 (Nama Harus 1 Kata)",
+                inputPlaceholder: "Nama",
+                inputValidator: (value)=>{
+                    if(!value){
+                        return "Masukan Nama Category"
+                    }
+                }
+            })
+            if(category5){
+                Swal.fire({
+                    icon:"warning",
+                        title:"Peringatan!",
+                        html:"<p><b>Nama Kategori</b> harus sama dengan Nama Kolom SpreedSheet</p>"
+                }).then((result)=>{
+                    if(result.isConfirmed){
+                        Swal.fire({
+                            icon:"success",
+                            title:"Pengaturan Berhasil Disimpan",
+                            text:"Nama Kategori : "+ category5
+                        }).then((result)=>{
+                            if(result.isConfirmed){
+                                location.reload()
+                            }
+                        })
+                    }
+                })
+                localStorage.setItem("name5", category5)
+            }
+        })
+        const qrCodeSuccessCallback = function (decodedText, decodedResult){
+            if(decodedText){
+            document.getElementById('nama').textContent = decodedText;
+            scanner.stop()
+        }}
+        scanner.start({facingMode:"environment"}, config, qrCodeSuccessCallback)
+        btnlink.addEventListener('click', async (e)=>{
+            e.preventDefault()
+            const { value: link } = await Swal.fire({
+                icon:"info",
+                title: "Pengaturan Link Sheets",
+                input: "url",
+                inputLabel: "Masukan Link SpreedSheets",
+                showCancelButton:true,
+                inputPlaceholder: "https://docs.google.com/spreedsheets/d/id-google",
+                inputValidator:(value)=>{
+                    if(!value){
+                        return "Masukan Link SpreedSheets!"
+                    }
+                }
+            })
+            if (link) {
+                Swal.fire({
+                    icon:"success",
+                    title:"Pengaturan Berhasil Disimpan",
+                    text:link
+                }).then((result)=>{
+                    if(result.isConfirmed){
+                        location.reload()
+                    }
+                })
+                localStorage.setItem("sheet", link)
+            }
+        })
+        btncode.addEventListener('click', async (e)=>{
+            e.preventDefault()
+            const { value: email } = await Swal.fire({
+                icon:"info",
+                title: "Pengaturan Link Code",
+                input: "url",
+                inputLabel: "Masukan Link Code SpreedSheets",
+                showCancelButton:true,
+                inputPlaceholder: "https://script.google.com/macros/s/id-google",
+                inputValidator:(value)=>{
+                    if(!value){
+                        return "Masukan Link SpreedSheets!"
+                    }
+                }
+            });
+            if (email) {
+                Swal.fire({
+                    icon:"success",
+                    title:"Pengaturan Berhasil Disimpan",
+                    text:email
+                }).then((result)=>{
+                    if(result.isConfirmed){
+                        location.reload()
+                    }
+                })
+                localStorage.setItem("code", email)
+            }
+        })
+
+        setInterval(()=>{
+            if(!code){
+                if(!sheet){
+                    ind.classList.add("bg-red-600")
+                    ind.classList.remove("bg-green-500")
+                }else{
+                    ind.classList.remove("bg-red-600")
+                    ind.classList.add("bg-green-500")
+                }
+            }else{
+                if(!sheet){
+                    ind.classList.add("bg-red-600")
+                    ind.classList.remove("bg-green-500")
+                }else{
+                    ind.classList.add("bg-green-500")
+                    ind.classList.remove("bg-red-600")
+                }
+            }
+            if(!namec1){
+                textc1.textContent = "Kategori 1"
+            }else{
+                textc1.textContent = namec1
+            }if(!namec2){
+                textc2.textContent = "Kategori 2"
+            }else{
+                textc2.textContent = namec2
+            }if(!namec3){
+                textc3.textContent = "Kategori 3"
+            }else{
+                textc3.textContent = namec3
+            }if(!namec1){
+                textc4.textContent = "Kategori 4"
+            }else{
+                textc4.textContent = namec4
+            }if(!namec1){
+                textc5.textContent = "Kategori 5"
+            }else{
+                textc5.textContent = namec5
+            }
+            inp1.setAttribute('name', namec1.toLowerCase())
+            inp2.setAttribute('name', namec2.toLowerCase())
+            inp3.setAttribute('name', namec3.toLowerCase())
+            inp4.setAttribute('name', namec4.toLowerCase())
+            inp5.setAttribute('name', namec5.toLowerCase())
+        }, 100)
+
+        form.addEventListener("submit", function(e) {
+            e.preventDefault();
+            ind.classList.toggle('animate-spin')
+            const data = new FormData(form);
+            const action = e.target.action;
+            if(!code){
+                Swal.fire({
+                    icon:"error",
+                    title:"Link Kosong",
+                    text:"Masukan link di Pengaturan"
+                })
+            }else{
+                submit.classList.add("hidden")
+                console.log('halo')
+                fetch(code, {
+                    method: 'POST',
+                    body: data,
+                    mode:"no-cors"
+                })
+                .then(() => {
+                    ind.classList.toggle('animate-spin')
+                    Swal.fire({
+                        allowOutsideClick:false,
+                        icon: "success",
+                        title: "Data Telah Diterima",
+                        confirmButtonText: "Masukan Data",
+                        footer: `<a class="text-blue-900 hover:text-blue-300" href="${sheet}">Lihat Catatan</a>`,
+                    }).then((result)=>{
+                        if(result.isConfirmed){
+                            location.reload()
+                        }
+                    })
+                    console.log("Success!");
+                    document.getElementById('nama').textContent = ''
+                    form.reset()
+                    scanner.start({facingMode:"environment"}, config, qrCodeSuccessCallback)
+                })
+            }
+        });
+
+    </script>
+
+</body>
+</html>
