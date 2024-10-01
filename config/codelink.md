@@ -64,7 +64,8 @@ function doPost (e) {
 - Di konfigurasi pilih Aplikasi Web ![](../src/Screenshot_16.jpg)
 - ![](../src/Screenshot_17.jpg)
 - pastikan untuk mengizinkan akses ke akun google![](../src/Screenshot_19.jpg)
-- Ketikan nama di desripsi kemudian klik Terapkan ![](../src/Screenshot_18.jpg)
+- Ketikan nama di desripsi kemudian klik Terapkan
+- Jadikan Access Kolom menjadi `anyone` ![](../src/Screenshot_18.jpg)
 - pastikan untuk menympan url web sebelum menutup jendela ![](../src/Screenshot_20.jpg)
 - kemudian masuk ke Tab Trigger/Pemicu (gambar Jam Beker) ![](../src/Screenshot_21.jpg)
 - terus klik tombol Tambahkan Pemicu ![](../src/Screenshot_22.jpg)
